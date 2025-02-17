@@ -2,12 +2,12 @@ user_answer = input('Welcome to input checker! Do you wish to proceed? [y] or [n
 
 def input_checker():
     user_selection = input("""What do you want to do?
-    press [1] check if input is 'ALPHABET'
-    press [2] check if input is 'NUMERIC'
-    press [3] check if input is 'LOWERCASE'
-    press [4] check if input is 'UPPERCASE'
-    press [5] count inputted characters
-    """)
+    input [1] to check if input is 'ALPHABET'
+    input [2] to check if input is 'NUMERIC'
+    input [3] to check if input is 'LOWERCASE'
+    input [4] to check if input is 'UPPERCASE'
+    input [5] to 'count' inputted characters
+    Input here->>: """)
     
     if user_selection == "1":
         user_input = input('Input characters to check: ')
