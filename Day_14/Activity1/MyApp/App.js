@@ -1,7 +1,7 @@
-import HomeScreen from "./HomeScreen";
-import DetailsScreen from "./DetailsScreen";
-import GreenScreen from "./Screens/GreenScreen";
-import PinkScreen from "./Screens/PinkScreen";
+import HomeScreen from "./HomeScreen.js";
+import DetailsScreen from "./DetailsScreen.js";
+import GreenScreen from "./Screens/GreenScreen.js";
+import PinkScreen from "./Screens/PinkScreen.js";
 import RedScreen from "./Screens/RedScreen.js";
 
 import { createStackNavigator } from "@react-navigation/stack";
